@@ -1,0 +1,31 @@
+{
+  "universe_mode": "core23",
+  "best_model": "logistic_regression",
+  "target_horizon": 20,
+  "top_n_list": [
+    2,
+    3,
+    5,
+    8,
+    10
+  ],
+  "bootstrap_block_length": 20,
+  "bootstrap_iterations": 2000,
+  "execution_rule": "signal_close_t_entry_open_t_plus_1_hold_exactly_20_sessions_exit_close_t_plus_20",
+  "benchmark_rule": "vnindex_entry_open_t_plus_1_exit_close_same_exit_date",
+  "equal_weight_rule": "available_symbols_only_and_same_round_trip_cost_as_top_n",
+  "max_drawdown_method": "period_end_equity_curve_not_intraperiod_daily_mdd",
+  "transaction_cost_scenarios": [
+    0.0,
+    0.002,
+    0.004,
+    0.006
+  ],
+  "walk_forward_years": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "final_test_year": 2025
+}

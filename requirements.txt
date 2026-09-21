@@ -1,0 +1,10 @@
+# Môi trường chuẩn: Python 3.12.x 64-bit.
+vnstock==4.0.7
+pandas==2.2.3
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.5.2
+xgboost==2.1.4
+joblib==1.4.2
+matplotlib==3.9.2
+streamlit==1.41.1
